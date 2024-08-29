@@ -27,3 +27,15 @@ def logout_user(request):
 
 def register_user(request):
     return render(request,'register.html',{})
+
+def customer_record(request):
+    return render(request,'register.html',{})
+
+def delete_record(request):
+    return render(request,'register.html',{})
+
+def add_record(request):
+    return render(request,'register.html',{})
+
+def update_record(request):
+    return render(request,'register.html',{})
